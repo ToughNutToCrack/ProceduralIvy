@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ivy
-  m_Shader: {fileID: 4800000, guid: b53e02ec4226f944da994b53a8705e66, type: 3}
-  m_ShaderKeywords: 
+  m_Name: Leaf 1
+  m_Shader: {fileID: 4800000, guid: 7bf4d42545a33cd47af93cc233c4c6b4, type: 3}
+  m_ShaderKeywords: _LEAF_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,18 +20,24 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: aecaa44a0f3130d4987b92e990b4464a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 096203c51403a7043a4d24304ec550aa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Amount: -0.433
+    - _Amount: 1
     - _Horizontal: 0
-    - _Radius: 0.09
+    - _Leaf: 1
+    - _Radius: 0
     m_Colors:
-    - _Color: {r: 0.48883054, g: 0.8301887, b: 0.20754717, a: 1}
-    - _ColorEnd: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.6792453, g: 0.08481198, b: 0.041651852, a: 1}
+    - _ColorCenter: {r: 0.3584906, g: 0.029064853, b: 0, a: 1}
+    - _ColorEnd: {r: 0.8773585, g: 0.3375657, b: 0, a: 1}
   m_BuildTextureStacks: []

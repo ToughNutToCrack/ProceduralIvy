@@ -10,7 +10,7 @@ public static class ListExtension {
         if (second == null) {
             return first;
         }
-
         return first.Concat(second).ToList();
     }
+
 }

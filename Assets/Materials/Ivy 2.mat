@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ivy
+  m_Name: Ivy 2
   m_Shader: {fileID: 4800000, guid: b53e02ec4226f944da994b53a8705e66, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -32,6 +32,6 @@ Material:
     - _Horizontal: 0
     - _Radius: 0.09
     m_Colors:
-    - _Color: {r: 0.48883054, g: 0.8301887, b: 0.20754717, a: 1}
+    - _Color: {r: 0.4811321, g: 0.19509228, b: 0.083971165, a: 1}
     - _ColorEnd: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
