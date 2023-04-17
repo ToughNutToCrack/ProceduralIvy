@@ -32,7 +32,11 @@ public class ProceduralIvy : MonoBehaviour {
         }
 
         if (Input.GetMouseButtonDown(0)) {
-            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            // Get the center of the screen as the starting point for the ray
+            Vector3 screenCenter = new Vector3(Screen.width / 2, Screen.height / 2, 0);
+
+
+            Ray ray = cam.ScreenPointToRay(screenCenter);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, 100)) {
                 createIvy(hit);
